@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">app</string>
+    <string name="getRandomBtn">GET RANDOM IMG</string>
+    <string name="random_number">Random number: %d</string>
+    <string name="edText">Enter img keyword</string>
+    <string name="checkbox">Use keyword</string>
+</resources>
