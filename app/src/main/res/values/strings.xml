@@ -4,4 +4,8 @@
     <string name="random_number">Random number: %d</string>
     <string name="edText">Enter img keyword</string>
     <string name="checkbox">Use keyword</string>
+    <string name="laptop">Laptop</string>
+    <string name="woman">Woman</string>
+    <string name="Man">Man</string>
+    <string name="house">house</string>
 </resources>

@@ -31,29 +31,41 @@
         app:layout_constraintStart_toStartOf="@+id/imgView"
         app:layout_constraintTop_toBottomOf="@+id/imgView" />
 
-    <EditText
-        android:id="@+id/edTextKeyword"
+    <RadioGroup
+        android:id="@+id/radioGroup"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:ems="10"
-        android:hint="@string/edText"
-        android:imeOptions="actionSearch"
-        android:importantForAutofill="no"
-        android:inputType="textPersonName"
-        app:layout_constraintEnd_toEndOf="@+id/imgView"
-        app:layout_constraintStart_toStartOf="@+id/imgView"
-        app:layout_constraintTop_toBottomOf="@+id/checkBox" />
-
-    <CheckBox
-        android:id="@+id/checkBox"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:checked="false"
-        android:text="@string/checkbox"
-        app:layout_constraintEnd_toEndOf="@+id/imgView"
+        android:layout_height="200dp"
+        android:checkedButton="@id/rBHouse"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/btnGetImg"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/imgView"
-        app:layout_constraintTop_toBottomOf="@+id/btnGetImg" />
+        app:layout_constraintStart_toStartOf="@+id/btnGetImg"
+        app:layout_constraintTop_toBottomOf="@+id/btnGetImg"
+        app:layout_constraintVertical_bias="0.039">
+
+        <RadioButton
+            android:id="@+id/rBHouse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/house" />
+
+        <RadioButton
+            android:id="@+id/rBLaptop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/laptop" />
+
+        <RadioButton
+            android:id="@+id/rBWoman"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/woman" />
+
+        <RadioButton
+            android:id="@+id/rBMan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Man" />
+    </RadioGroup>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
